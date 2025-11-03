@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I am thrilled to join Microsoft Research as a Senior Researcher. 
+I am thrilled to join Microsoft Research as a Senior Researcher.

@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: 
+subtitle:
 # Ph.D. candidate, <a href="https://www.USC.edu">University of Southern California</a>
 
 profile:
@@ -25,11 +25,9 @@ announcements:
 
 I am a senior researcher at <a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-redmond/">Microsoft Research</a>. I completed my Ph.D. at the <a href="https://www.USC.edu">University of Southern California</a> and my bachelor's degree at the Sharif University of Technology.
 
-
 My research is in the intersection of theory, systems, and machine learning. I focus on studying complex systems and enhancing their performance and availability at scale. I have received several awards, including the <a href="https://research.google/programs-and-events/phd-fellowship/recipients/?filtertab=2024">Google Ph.D. fellowship</a>, the <a href="https://mlcommons.org/2024/06/2024-mlc-rising-stars/">Machine Learning and Systems Rising Star Award</a>, and the <a href="https://minghsiehece.usc.edu/past-scholars/">MHI Scholarship</a>. My research has also had direct industry impacts: My work on max-min fair resource allocation, <a href="https://www.usenix.org/conference/nsdi24/presentation/namyar-solving">Soroush (NSDI'24)</a>, has been deployed in Microsoft’s traffic engineering pipeline; <a href="https://dl.acm.org/doi/abs/10.1145/3718958.3750502">Firefly (SIGCOMM'25)</a>, my work on clock synchronization, is deployed at Google; and my <a href="https://www.microsoft.com/en-us/research/project/finding-adversarial-inputs-for-heuristics/">heuristic analysis tools</a> have uncovered and addressed inefficiencies in production heuristics.
 
 Feel free to drop me an email if you have any questions or want to discuss new ideas!
-
 
 <!-- Toward this goal, I develop (1) practical, scalable algorithms and optimization methods with formal guarantees and (2) systems and methods to identify, explain, and effectively address performance gaps in both handcrafted and learning-enabled heuristics. -->
 

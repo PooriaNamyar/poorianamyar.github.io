@@ -4,7 +4,7 @@
 
 title: Pooria Namyar # the website title (if blank, full name will be used instead)
 first_name: Pooria
-middle_name: 
+middle_name:
 last_name: Namyar
 contact_note: >
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
@@ -571,7 +571,6 @@ third_party_libraries:
       css: "https://cdn.jsdelivr.net/npm/venobox@{{version}}/dist/venobox.min.css"
       js: "https://cdn.jsdelivr.net/npm/venobox@{{version}}/dist/venobox.min.js"
     version: "2.1.8"
-
 # -----------------------------------------------------------------------------
 # Get external JSON data
 # -----------------------------------------------------------------------------

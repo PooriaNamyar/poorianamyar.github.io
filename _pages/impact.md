@@ -16,6 +16,7 @@ nav_order: 4
 - My work, **MetaOpt** (<a href="https://www.usenix.org/conference/nsdi24/presentation/namyar-finding">NSDI'24</a>), opens up a new area of research on scalable, general, and user-friendly performance analyzers. MetaOpt enables practitioners to identify and fix the pathological behavior of their algorithms before deployment. It has attracted interest from both academia and industry. For instance, I collaborated with researchers at ETH Z&uuml;rich to analyze the trade-offs in a new packet scheduling heuristic using MetaOpt (see **PACKS** at <a href="https://www.usenix.org/conference/nsdi25/presentation/alcoz">NSDI'25</a>). MetaOpt has also identified and fixed inefficiencies in key production heuristics at Microsoft.
 
 ## Patents
+
 - Flow network intermediate representation for optimization problems, <a href="https://patents.google.com/patent/US20250200130A1/en">US Patent</a>
 - Network traffic control using estimated maximum gap, <a href="https://patents.google.com/patent/US12155554B2/en">US Patent</a>
 - Solving max-min fair resource allocation at large scale, <a href="https://patents.google.com/patent/US20240314747A1/en">US Patent</a>
