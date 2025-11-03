@@ -10,7 +10,7 @@ layout: default
 
 <div class="post">
   <header class="post-header">
-      {% if page.title != 'Impact' %}
+      {% if page.title != 'impact' %}
         <h1 class="post-title">{{ page.title }}</h1>
       {% endif %}
     <p class="post-description">{{ page.description }}</p>
@@ -20,11 +20,12 @@ layout: default
     {{ content }}
   </article>
 
-  {% if page.related_publications %}
-    <h2>References</h2>
-    <div class="publications">
-      {% bibliography --cited_in_order %}
-    </div>
+  <!-- Selected papers -->
+  {% if page.selected_papers %}
+    <h2>
+      <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Selected Publications</a>
+    </h2>
+    {% include selected_papers.liquid %}
   {% endif %}
 
   {% if site.giscus and page.giscus_comments %}

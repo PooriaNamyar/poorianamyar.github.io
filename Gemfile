@@ -20,6 +20,8 @@ group :jekyll_plugins do
     gem 'jekyll-terser', :git => "https://github.com/RobertoJBeltran/jekyll-terser.git"
     gem 'jekyll-toc'
     gem 'jekyll-twitter-plugin'
+    # gem 'sassc-rails'
+    # gem 'jekyll-sass-converter', '~> 3.0', '>= 3.0.0'
     gem 'jemoji'
 
     gem 'classifier-reborn'  # used for content categorization during the build
@@ -28,6 +30,7 @@ end
 # Gems for development or external data fetching (outside :jekyll_plugins)
 group :other_plugins do
     gem 'css_parser'
+    gem 'sass-embedded', '~> 1.89', '>= 1.89.2'
     gem 'feedjira'
     gem 'httparty'
     gem 'observer'       # used by jekyll-scholar
