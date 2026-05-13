@@ -4,13 +4,30 @@
 @string{aps = {American Physical Society,}}
 
 
-@inproceedings{karimi2026metaease,
-  author = {Karimi, Pantea and Kakarla, Siva Kesava Reddy and Namyar, Pooria and Segarra, Santiago and Beckett, Ryan and Alizadeh, Mohammad and Arzani, Behnaz},
-  title = {MetaEase: Heuristic Analysis from Source Code via Symbolic-Guided Optimization},
+@inproceedings{arvin2025OnlineTE,
+author = {Ghavidel, Arvin and  Namyar, Pooria and Matni, Nikolai and Willinger, Walter and Govindan, Ramesh},
+title = {Near-optimal Online Traffic Engineering},
+year = {2026},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+booktitle = {Proceedings of the ACM SIGCOMM 2026 Conference},
+series = {SIGCOMM '26},
+abbr = {SIGCOMM},
+selected = {true},
+}
+
+@inproceedings {karimi2026metaease,
+  author = {Pantea Karimi and Siva Kesava Reddy Kakarla and Ryan Beckett and Santiago Segarra and Pooria Namyar and Mohammad Alizadeh and Behnaz Arzani},
+  title = {Heuristic Analysis from Source Code via {Symbolic-Guided} Optimization},
   booktitle = {23rd USENIX Symposium on Networked Systems Design and Implementation (NSDI 26)},
   year = {2026},
+  isbn = {978-1-939133-54-0},
+  address = {Renton, WA},
+  pages = {2151--2174},
+  url = {https://www.usenix.org/conference/nsdi26/presentation/karimi},
+  abstract = {Large-scale systems rely on heuristics to tackle NP-hard problems such as traffic engineering, virtual machine placement, and packet scheduling. While these heuristics are efficient, they can exhibit severe performance gaps under certain workloads, which leads to outages or costly over-provisioning. This risk has motivated tools that attempt to find inputs that cause worst-case underperformance. But, to use these tools in practice, heuristic developers need to rewrite heuristics as formal mathematical models—a process that is time-consuming, error-prone, and excludes many real-world algorithms. We introduce MetaEase, a practical general-domain analyzer that directly analyzes a heuristic’s source code and eliminates the need for formal modeling. MetaEase combines code-aware input generation with guided search to uncover worst-case scenarios efficiently, even for heuristics with randomness (e.g., various traffic engineering schemes) or non-convex behavior (e.g., bin packing for virtual machine placement). In most cases, across five problem domains, and eight heuristics, MetaEase matched or exceeded MetaOpt, a state-of-the-art optimization-based heuristic analyzer; in the remainder, it remained competitive and often ran faster. Against black-box optimization baselines, it won in 88% of settings and ranked in the top two otherwise. MetaEase analyzed Arrow, a recent networking heuristic that none of the state-of-the-art heuristic analyzers can analyze. We revealed previously unknown performance gaps in Arrow.}
   publisher = {USENIX Association},
-  month = apr,
+  month = may,
   abbr={NSDI},
 }
 
